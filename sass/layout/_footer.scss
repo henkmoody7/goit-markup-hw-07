@@ -1,0 +1,97 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+.logo-footer-text {
+  color: #ffffff;
+}
+.footer .logo {
+  margin-right: 0;
+}
+.footer-list {
+  margin-top: 20px;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-contact {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-element {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer-contact:nth-child(2) {
+  margin-right: 23px;
+}
+
+.footer-contact .team-soc-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #fff;
+
+  transition: background-color var(--standard-duration) var(--timing-function);
+}
+
+.footer-contact .team-soc-link:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-contact__input {
+  margin-right: 12px;
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  outline: none;
+}
+
+.footer-contact__btn {
+  position: relative;
+  padding: 10px 29px;
+  padding-right: 62px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button__icon {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+
+  transform: translateY(-50%);
+}
