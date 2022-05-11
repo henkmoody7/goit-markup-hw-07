@@ -14,3 +14,8 @@
   transition: transform var(--standard-duration) var(--timing-function),
     opacity var(--standard-duration) var(--timing-function);
 }
+
+.backdrop.is-hidden .modal {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.8);
+}

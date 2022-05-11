@@ -25,14 +25,18 @@
   transition: background-color var(--standard-duration) var(--timing-function),
     border-color var(--standard-duration) var(--timing-function),
     fill var(--standard-duration) var(--timing-function);
+
+  .modal__checkbox:checked + & {
+    background-color: var(--accent-color);
+    border-color: transparent;
+    fill: #fff;
+  }
+
+  .modal__checkbox:focus + & {
+    border-color: var(--accent-color);
+  }
 }
 
-.modal__checkbox:checked + .checkbox-icon {
-  background-color: var(--accent-color);
-  border-color: transparent;
-  fill: #fff;
-}
-
-.modal__checkbox:focus + .checkbox-icon {
-  border-color: var(--accent-color);
+.modal__link {
+  color: var(--accent-color);
 }

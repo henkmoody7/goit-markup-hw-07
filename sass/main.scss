@@ -1,5 +1,4 @@
 @import './utils/variables';
-@import './base/fonts';
 @import './base/reset';
 @import './utils/visually-hidden';
 @import './components/section';
@@ -16,7 +15,7 @@
 @import './layout/soc-list';
 @import './layout/clients';
 @import './components/filter-btn';
-@import './layout/filter';
+@import './layout/filter-list';
 @import './layout/projects';
 @import './layout/footer';
 @import './layout/footer-form';
@@ -24,4 +23,5 @@
 @import './layout/modal/modal';
 @import './layout/modal/close-btn';
 @import './layout/modal/modal-components';
+@import './layout/modal/textarea';
 @import './layout/modal/checkbox';

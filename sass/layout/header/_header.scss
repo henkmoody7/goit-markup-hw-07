@@ -1,16 +1,16 @@
-.header {
-  border-bottom: var(--border-style);
-}
-
 .main-nav {
   display: flex;
   align-items: center;
 }
 
-.header__logo {
-  margin-right: 93px;
+.header {
+  border-bottom: var(--border-style);
 }
 
-.header__logo--dark {
-  color: #000000;
+.header__logo {
+  margin-right: 93px;
+
+  &--dark {
+    color: #000000;
+  }
 }

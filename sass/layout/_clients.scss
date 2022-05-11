@@ -1,17 +1,17 @@
 .clients {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
+
+  &__list {
+    display: flex;
+  }
 }
 
-.clients-list {
-  display: flex;
-}
-
-.clients-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: var(--standard-margin);
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,15 +24,15 @@
 
   transition: border-color var(--standard-duration) var(--timing-function),
     fill 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+  }
 }
 
-.clients-icon {
+.clients__icon {
   width: 106px;
   height: 60px;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
 }

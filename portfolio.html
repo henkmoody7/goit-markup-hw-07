@@ -60,15 +60,21 @@
         <div class="container">
           <h1 class="visually-hidden">Наши работы</h1>
           <ul class="filter-list list">
-            <li class="filter-item">
-              <button type="button" class="filter-btn current-btn">Все</button>
+            <li class="filter-list__item">
+              <button type="button" class="filter-btn filter-btn--current">Все</button>
             </li>
-            <li class="filter-item"><button type="button" class="filter-btn">Веб-сайты</button></li>
-            <li class="filter-item">
+            <li class="filter-list__item">
+              <button type="button" class="filter-btn">Веб-сайты</button>
+            </li>
+            <li class="filter-list__item">
               <button type="button" class="filter-btn">Приложения</button>
             </li>
-            <li class="filter-item"><button type="button" class="filter-btn">Дизайн</button></li>
-            <li class="filter-item"><button type="button" class="filter-btn">Маркетинг</button></li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-btn">Дизайн</button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="filter-btn">Маркетинг</button>
+            </li>
           </ul>
           <ul class="projects-list list">
             <li class="projects-item">
@@ -279,8 +285,8 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-element">
-        <div class="footer-contact">
+      <div class="container footer-wrap">
+        <div class="footer-elements">
           <a href="/" class="logo footer__logo link"
             >Web<span class="footer__logo--light logo">Studio</span></a
           >
@@ -297,7 +303,7 @@
           </ul>
         </div>
         <div class="footer-contact">
-          <p class="footer-text">присоединяйтесь</p>
+          <p class="footer__tittle">присоединяйтесь</p>
           <ul class="soc-list list">
             <li class="soc-list__item">
               <a href="" class="soc-list__link soc-list__link--footer link">
@@ -326,7 +332,7 @@
           </ul>
         </div>
         <div class="footer-contact">
-          <p class="footer-text">Подпишитесь на рассылку</p>
+          <p class="footer__tittle">Подпишитесь на рассылку</p>
           <form>
             <input type="email" placeholder="E-mail" class="footer-contact__input" />
             <button type="submit" class="footer-contact__btn button">

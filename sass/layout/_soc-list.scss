@@ -2,9 +2,11 @@
   display: flex;
   justify-content: center;
 }
+
 .soc-list__item + .soc-list__item {
   margin-left: 10px;
 }
+
 .soc-list__link {
   display: flex;
   justify-content: center;
@@ -16,12 +18,12 @@
 
   transition: background-color var(--standard-duration) var(--timing-function),
     fill 250ms var(--timing-function);
-}
 
-.soc-list__link:hover,
-.soc-list__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--secondary-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--secondary-color);
+  }
 }
 
 .soc-list__icon {

@@ -9,9 +9,9 @@
   background-color: var(--accent-color);
 
   transition: background-color var(--standard-duration) var(--timing-function);
-}
 
-.button:hover,
-.button:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
