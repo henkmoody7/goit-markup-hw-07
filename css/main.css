@@ -18,6 +18,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -40,14 +48,6 @@ img {
 button {
   border: none;
   cursor: pointer;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
 }
 
 .visually-hidden {
@@ -121,7 +121,8 @@ button {
 .header__logo {
   margin-right: 93px;
 }
-.header__logo--dark {
+
+.header__span--dark {
   color: #000000;
 }
 
@@ -229,7 +230,7 @@ button {
   margin-left: var(--standard-margin);
 }
 
-.benefit__fon {
+.benefits__fon {
   display: flex;
   width: 270px;
   height: 120px;
@@ -514,7 +515,7 @@ button {
   margin-right: 23px;
 }
 
-.footer__logo--light {
+.footer__span--light {
   color: #ffffff;
 }
 

@@ -24,7 +24,7 @@
     <header class="header">
       <div class="container main-nav">
         <a href="/" class="logo header__logo link"
-          >Web<span class="header__logo--dark logo">Studio</span></a
+          >Web<span class="header__span header__span--dark logo">Studio</span></a
         >
         <nav class="nav">
           <ul class="nav__list list">
@@ -73,7 +73,7 @@
         <h2 class="visually-hidden">Почему мы</h2>
         <ul class="benefits__list list">
           <li class="benefits__item">
-            <div class="benefit__fon">
+            <div class="benefits__fon">
               <svg class="benefits__icon">
                 <use href="./images/icons.svg#icon-antenna"></use>
               </svg>
@@ -84,7 +84,7 @@
             </p>
           </li>
           <li class="benefits__item">
-            <div class="benefit__fon">
+            <div class="benefits__fon">
               <svg class="benefits__icon">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
@@ -95,7 +95,7 @@
             </p>
           </li>
           <li class="benefits__item">
-            <div class="benefit__fon">
+            <div class="benefits__fon">
               <svg class="benefits__icon">
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
@@ -106,7 +106,7 @@
             </p>
           </li>
           <li class="benefits__item">
-            <div class="benefit__fon">
+            <div class="benefits__fon">
               <svg class="benefits__icon">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
@@ -329,10 +329,10 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="container footer-element">
-        <div class="footer-contact">
+      <div class="container footer-wrap">
+        <div class="footer-elements">
           <a href="/" class="logo footer__logo link"
-            >Web<span class="footer__logo--light logo">Studio</span></a
+            >Web<span class="footer__span footer__span--light logo">Studio</span></a
           >
           <ul class="footer-list list">
             <li class="footer-item">
@@ -347,7 +347,7 @@
           </ul>
         </div>
         <div class="footer-contact">
-          <p class="footer-text">присоединяйтесь</p>
+          <p class="footer__tittle">присоединяйтесь</p>
           <ul class="soc-list list">
             <li class="soc-list__item">
               <a href="" class="soc-list__link soc-list__link--footer link">
@@ -376,14 +376,9 @@
           </ul>
         </div>
         <div class="footer-contact">
-          <p class="footer-text">Подпишитесь на рассылку</p>
+          <p class="footer__tittle">Подпишитесь на рассылку</p>
           <form>
-            <input
-              type="email"
-              placeholder="E-mail"
-              class="footer-contact__input"
-              name="user-email"
-            />
+            <input type="email" placeholder="E-mail" class="footer-contact__input" />
             <button type="submit" class="footer-contact__btn button">
               Подписаться
               <svg width="24" height="24" class="button__icon">
@@ -406,8 +401,8 @@
           <label class="modal__label"
             >Имя
             <span class="input-wrap">
-              <input type="text" class="modal__input input" name="user-name" />
-              <svg class="input__icon">
+              <input type="text" class="modal__input" name="user-name" />
+              <svg class="modal__icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </span>
@@ -417,7 +412,7 @@
             >Телефон
             <span class="input-wrap">
               <input type="tel" class="modal__input" name="user-tel" />
-              <svg class="input__icon">
+              <svg class="modal__icon">
                 <use href="./images/icons.svg#icon-phone-icon"></use>
               </svg>
             </span>
@@ -426,7 +421,7 @@
             >Почта
             <span class="input-wrap">
               <input type="email" class="modal__input" name="user-email" />
-              <svg class="input__icon">
+              <svg class="modal__icon">
                 <use href="./images/icons.svg#icon-email-icon"></use>
               </svg>
             </span>
