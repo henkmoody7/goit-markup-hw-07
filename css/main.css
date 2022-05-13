@@ -700,7 +700,7 @@ button {
   border-color: var(--accent-color);
 }
 
-.input__icon {
+.modal__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -709,7 +709,7 @@ button {
   transform: translateY(-50%);
   transition: fill var(--standard-duration) var(--timing-function);
 }
-.modal__input:focus + .input__icon {
+.modal__input:focus + .modal__icon {
   fill: var(--accent-color);
 }
 
